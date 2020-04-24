@@ -6,6 +6,7 @@ import org.apache.ibatis.annotations.Mapper;
 /**
 * Created by Mybatis Generator on 2019/09/17
 */
+@Mapper
 public interface HiTaskinstMapper {
     int deleteByPrimaryKey(String id);
 

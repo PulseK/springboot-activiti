@@ -1,0 +1,26 @@
+server:
+  port: 8090
+spring:
+  activiti:
+    history-level: full
+    check-process-definitions: false
+  datasource:
+    druid:
+      driver-class-name: org.postgresql.Driver
+      url: jdbc:postgresql://localhost:5432/activiti-data?&ssl=false
+      username: postgres
+      password: 123456
+      initial-size: 96
+      max-active: 128
+      min-idle: 96
+      filter:
+        stat:
+          log-slow-sql: true
+          db-type: postgresql
+          enabled: true
+mybatis:
+  config-location: classpath:mybatis/configuration.xml
+  mapper-locations: classpath:mybatis/mappers/*/*Mapper.xml
+  type-aliases-package: com.sancaijia.entity
+
+

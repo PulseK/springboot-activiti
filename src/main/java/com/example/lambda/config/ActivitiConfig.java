@@ -1,11 +1,10 @@
 package com.example.lambda.config;
 
-import org.activiti.engine.ProcessEngine;
-import org.activiti.engine.repository.ProcessDefinition;
+import com.zaxxer.hikari.HikariDataSource;
 import org.activiti.spring.SpringAsyncExecutor;
 import org.activiti.spring.SpringProcessEngineConfiguration;
 import org.activiti.spring.boot.AbstractProcessEngineAutoConfiguration;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
@@ -15,7 +14,6 @@ import org.springframework.transaction.PlatformTransactionManager;
 
 import javax.sql.DataSource;
 import java.io.IOException;
-import java.util.List;
 
 /**
  * @ClassName ActivitiConfig
@@ -29,13 +27,19 @@ public class ActivitiConfig extends AbstractProcessEngineAutoConfiguration {
     @Bean
     @Primary
     @ConfigurationProperties(prefix = "spring.datasource")
-    public DataSource activitiDataSource() {
-        return DataSourceBuilder.create().build();
+    public DataSource activitiDataSource(DataSourceProperties properties) {
+        return DataSourceBuilder.create(properties.getClassLoader())
+                .type(HikariDataSource.class)
+                .driverClassName(properties.determineDriverClassName())
+                .url(properties.determineUrl())
+                .username(properties.determineUsername())
+                .password(properties.determinePassword())
+                .build();
     }
 
     @Bean
-    public SpringProcessEngineConfiguration springProcessEngineConfiguration(PlatformTransactionManager transactionManager, SpringAsyncExecutor executor) throws IOException {
-        return baseSpringProcessEngineConfiguration(activitiDataSource(), transactionManager, executor);
+    public SpringProcessEngineConfiguration springProcessEngineConfiguration(PlatformTransactionManager transactionManager, SpringAsyncExecutor executor, DataSourceProperties properties) throws IOException {
+        return baseSpringProcessEngineConfiguration(activitiDataSource(properties), transactionManager, executor);
     }
 
     //    @Autowired

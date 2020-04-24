@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="7094c2d4-2cca-4033-8d34-22c74bd6023c" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="2279db40-979b-4a55-b00c-79dfb150a07d" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="163cd0a4-e2a6-4707-b2ca-c02cddc255ba" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="a1012a5e-2baa-4c8d-8f56-e96e005a9c8a" port="22" customName="UMA2" nameFormat="CUSTOM" />
+    </configs>
+  </component>
+</project>

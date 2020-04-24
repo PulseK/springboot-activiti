@@ -12,6 +12,7 @@ import org.springframework.boot.autoconfigure.liquibase.LiquibaseAutoConfigurati
 @SpringBootApplication(exclude = {LiquibaseAutoConfiguration.class,
         org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class,
         SecurityAutoConfiguration.class})
+@MapperScan("com.example.lambda.generator.mapper")
 public class LambdaApplication {
 
     public static void main(String[] args) {

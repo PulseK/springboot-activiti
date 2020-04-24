@@ -1,4 +1,7 @@
 spring:
-  activiti:
-    history-level: full
-    check-process-definitions: false
+  profiles:
+    active: local
+debug: true
+logging:
+  level:
+    org.springframework.boot.autoconfigure: ERROR
