@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a69f940-1f5f-474c-bb79-45cb1fe92e6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/lambda/ActivitiDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/lambda/ActivitiDemoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,12 +66,6 @@
         <option name="userSettingsFile" value="C:\dev\apache-maven-3.6.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1346" />
-    <option name="height" value="728" />
   </component>
   <component name="ProjectId" id="1ayDqd9M3qP4OhcVksN2KX4iT73" />
   <component name="ProjectViewState">
@@ -139,49 +134,7 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.LambdaApplication">
-    <configuration name="Generator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.generator.Generator" />
-      <module name="Mygenerator" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.generator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Generator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.generator.generator.Generator" />
-      <module name="lambda-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.generator.generator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActivitiDemoTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lambda-demo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.lambda" />
-      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiDemoTest" />
-      <option name="METHOD_NAME" value="Test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ActivitiDemoTest.handleTask">
     <configuration name="ActivitiDemoTest.deploymentProcesses_zip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambda-demo" />
       <extension name="coverage">
@@ -193,6 +146,22 @@
       <option name="PACKAGE_NAME" value="com.example.lambda" />
       <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiDemoTest" />
       <option name="METHOD_NAME" value="deploymentProcesses_zip" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ActivitiDemoTest.handleTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lambda-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.lambda" />
+      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiDemoTest" />
+      <option name="METHOD_NAME" value="handleTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -214,7 +183,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivitiDemoTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActivitiDemoTest.startProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambda-demo" />
       <extension name="coverage">
         <pattern>
@@ -224,6 +193,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.example.lambda" />
       <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiDemoTest" />
+      <option name="METHOD_NAME" value="startProcess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LambdaTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lambda-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.lambda" />
+      <option name="MAIN_CLASS_NAME" value="com.example.lambda.LambdaTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -239,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ActivitiDemoTest.handleTask" />
         <item itemvalue="JUnit.ActivitiDemoTest.queryTask" />
+        <item itemvalue="JUnit.ActivitiDemoTest.startProcess" />
         <item itemvalue="JUnit.ActivitiDemoTest.deploymentProcesses_zip" />
-        <item itemvalue="JUnit.ActivitiDemoTest.test1" />
-        <item itemvalue="JUnit.ActivitiDemoTest.Test" />
-        <item itemvalue="Application.Generator (1)" />
+        <item itemvalue="JUnit.LambdaTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +261,7 @@
       <workItem from="1568772088750" duration="5207000" />
       <workItem from="1568879240415" duration="3100000" />
       <workItem from="1587699133900" duration="212000" />
-      <workItem from="1587699505981" duration="3999000" />
+      <workItem from="1587699505981" duration="7383000" />
     </task>
     <task id="LOCAL-00001" summary="springboot+activiti+postgresql+mybatis-puls">
       <created>1587705588832</created>
@@ -285,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587705588832</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="springboot+activiti+postgresql+mybatis-puls">
+      <created>1587705993067</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587705993067</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -309,10 +301,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587704911455" />
-    <state x="319" y="105" key="CommitChangelistDialog2" timestamp="1587705587474">
+    <state x="319" y="105" key="CommitChangelistDialog2" timestamp="1587705992070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="319" y="105" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587705587474" />
+    <state x="319" y="105" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587705992070" />
     <state width="445" height="466" key="DebuggerActiveHint" timestamp="1587704845257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -321,70 +313,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587705938662" />
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom" timestamp="1587705915911">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1587710521155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587705915911" />
-    <state width="1877" height="350" key="GridCell.Tab.0.center" timestamp="1587705915911">
+    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521155" />
+    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1587710521155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587705915911" />
-    <state width="1877" height="350" key="GridCell.Tab.0.left" timestamp="1587705915911">
+    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521155" />
+    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1587710521155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587705915911" />
-    <state width="1877" height="350" key="GridCell.Tab.0.right" timestamp="1587705915911">
+    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521155" />
+    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1587710521155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587705915911" />
-    <state width="1877" height="350" key="GridCell.Tab.1.bottom" timestamp="1587705915912">
+    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521155" />
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1587710521148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587705915912" />
-    <state width="1877" height="350" key="GridCell.Tab.1.center" timestamp="1587705915912">
+    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
+    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1587710521148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587705915912" />
-    <state width="1877" height="350" key="GridCell.Tab.1.left" timestamp="1587705915911">
+    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
+    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1587710521148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587705915911" />
-    <state width="1877" height="350" key="GridCell.Tab.1.right" timestamp="1587705915912">
+    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
+    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1587710521148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="350" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587705915912" />
-    <state width="1877" height="442" key="GridCell.Tab.2.bottom" timestamp="1587705147833">
+    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
+    <state width="1877" height="282" key="GridCell.Tab.2.bottom" timestamp="1587710521149">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587705147833" />
-    <state width="1877" height="442" key="GridCell.Tab.2.center" timestamp="1587705147833">
+    <state width="1877" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521149" />
+    <state width="1877" height="282" key="GridCell.Tab.2.center" timestamp="1587710521148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587705147833" />
-    <state width="1877" height="442" key="GridCell.Tab.2.left" timestamp="1587705147833">
+    <state width="1877" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
+    <state width="1877" height="282" key="GridCell.Tab.2.left" timestamp="1587710521148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587705147833" />
-    <state width="1877" height="442" key="GridCell.Tab.2.right" timestamp="1587705147833">
+    <state width="1877" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
+    <state width="1877" height="282" key="GridCell.Tab.2.right" timestamp="1587710521148">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587705147833" />
-    <state width="1877" height="442" key="GridCell.Tab.3.bottom" timestamp="1587705147833">
+    <state width="1877" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
+    <state width="1877" height="442" key="GridCell.Tab.3.bottom" timestamp="1587707200210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587705147833" />
-    <state width="1877" height="442" key="GridCell.Tab.3.center" timestamp="1587705147833">
+    <state width="1877" height="442" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587707200210" />
+    <state width="1877" height="442" key="GridCell.Tab.3.center" timestamp="1587707200210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587705147833" />
-    <state width="1877" height="442" key="GridCell.Tab.3.left" timestamp="1587705147833">
+    <state width="1877" height="442" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587707200210" />
+    <state width="1877" height="442" key="GridCell.Tab.3.left" timestamp="1587707200210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587705147833" />
-    <state width="1877" height="442" key="GridCell.Tab.3.right" timestamp="1587705147833">
+    <state width="1877" height="442" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587707200210" />
+    <state width="1877" height="442" key="GridCell.Tab.3.right" timestamp="1587707200210">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587705147833" />
+    <state width="1877" height="442" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587707200210" />
     <state x="540" y="254" key="IDE.errors.dialog" timestamp="1587699234946">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -393,10 +385,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587705941944" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587705831500">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587706022065">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587705831500" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587706022065" />
     <state x="662" y="254" width="596" height="532" key="find.popup" timestamp="1587701340659">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

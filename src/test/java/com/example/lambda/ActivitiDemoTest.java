@@ -4,6 +4,7 @@ import org.activiti.engine.*;
 import org.activiti.engine.repository.Deployment;
 import org.activiti.engine.runtime.ProcessInstance;
 import org.activiti.engine.task.Task;
+import org.activiti.engine.task.TaskQuery;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -102,6 +103,10 @@ public class ActivitiDemoTest {
     public void queryTask() {
         //根据assignee(代理人)查询任务
         String assignee = "pm";
+        TaskQuery taskQuery = taskService.createTaskQuery();
+        taskQuery = taskQuery.taskAssignee(assignee);
+        taskQuery.list();
+
         List<Task> tasks = taskService.createTaskQuery().taskAssignee(assignee).list();
 
         int size = tasks.size();
@@ -125,7 +130,7 @@ public class ActivitiDemoTest {
     @Test
     public void handleTask() {
         //根据上一步生成的taskId执行任务
-        String taskId = "10005";
+        String taskId = "2505";
         // 选通过taskId查询任务
         // getProcessInstanceId()从任务里拿到流程实例id
         String task = taskService.createTaskQuery().taskId(taskId).singleResult().getProcessInstanceId();
