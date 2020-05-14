@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a69f940-1f5f-474c-bb79-45cb1fe92e6b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/processes/addSalary.bpmn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/lambda/ActivitiTestForMe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sshConfigs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/processes/leaveTask.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/processes/leaveTask.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/example/lambda/ActivitiDemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/lambda/ActivitiDemoTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +93,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../新建文件夹/yuanma/workflow-master" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,11 +106,13 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.example.lambda.activiti.service" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chenm\Desktop\activiti-demo\src\main\resources\mybatis\mapper" />
+      <recent name="D:\project\lexample\Mygenerator\src\main\resources" />
+      <recent name="D:\project\lambda-demo\src\main\resources\processes" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -123,19 +131,28 @@
       <recent name="mapper" />
       <recent name="com.example.lambda.activiti.service" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\chenm\Desktop\activiti-demo\src\main\resources\mybatis\mapper" />
-      <recent name="D:\project\lexample\Mygenerator\src\main\resources" />
-      <recent name="D:\project\lambda-demo\src\main\resources\processes" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.lambda.activiti.service" />
     </key>
   </component>
   <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle tasks" flag="true" />
+      <visibility group="Grunt tasks" flag="true" />
+      <visibility group="Gulp tasks" flag="true" />
+      <visibility group="Maven goals" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+    </myKeys>
     <option name="myCommands">
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ActivitiDemoTest.handleTask">
-    <configuration name="ActivitiDemoTest.deploymentProcesses_zip" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ActivitiTestForMe.completeTask">
+    <configuration name="ActivitiTestForMe.activitiTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambda-demo" />
       <extension name="coverage">
         <pattern>
@@ -144,14 +161,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.lambda" />
-      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiDemoTest" />
-      <option name="METHOD_NAME" value="deploymentProcesses_zip" />
+      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiTestForMe" />
+      <option name="METHOD_NAME" value="activitiTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivitiDemoTest.handleTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActivitiTestForMe.completeTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambda-demo" />
       <extension name="coverage">
         <pattern>
@@ -160,14 +177,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.lambda" />
-      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiDemoTest" />
-      <option name="METHOD_NAME" value="handleTask" />
+      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiTestForMe" />
+      <option name="METHOD_NAME" value="completeTask" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivitiDemoTest.queryTask" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActivitiTestForMe.deploymentProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambda-demo" />
       <extension name="coverage">
         <pattern>
@@ -176,14 +193,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.lambda" />
-      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiDemoTest" />
-      <option name="METHOD_NAME" value="queryTask" />
+      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiTestForMe" />
+      <option name="METHOD_NAME" value="deploymentProcess" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ActivitiDemoTest.startProcess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActivitiTestForMe.processDeploy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambda-demo" />
       <extension name="coverage">
         <pattern>
@@ -192,14 +209,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.lambda" />
-      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiDemoTest" />
-      <option name="METHOD_NAME" value="startProcess" />
+      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiTestForMe" />
+      <option name="METHOD_NAME" value="processDeploy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ActivitiTestForMe.testAddUserAndGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lambda-demo" />
       <extension name="coverage">
         <pattern>
@@ -208,8 +225,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.example.lambda" />
-      <option name="MAIN_CLASS_NAME" value="com.example.lambda.LambdaTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="com.example.lambda.ActivitiTestForMe" />
+      <option name="METHOD_NAME" value="testAddUserAndGroup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -224,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ActivitiDemoTest.handleTask" />
-        <item itemvalue="JUnit.ActivitiDemoTest.queryTask" />
-        <item itemvalue="JUnit.ActivitiDemoTest.startProcess" />
-        <item itemvalue="JUnit.ActivitiDemoTest.deploymentProcesses_zip" />
-        <item itemvalue="JUnit.LambdaTest.test1" />
+        <item itemvalue="JUnit.ActivitiTestForMe.completeTask" />
+        <item itemvalue="JUnit.ActivitiTestForMe.processDeploy" />
+        <item itemvalue="JUnit.ActivitiTestForMe.deploymentProcess" />
+        <item itemvalue="JUnit.ActivitiTestForMe.testAddUserAndGroup" />
+        <item itemvalue="JUnit.ActivitiTestForMe.activitiTest" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +279,17 @@
       <workItem from="1568879240415" duration="3100000" />
       <workItem from="1587699133900" duration="212000" />
       <workItem from="1587699505981" duration="7383000" />
+      <workItem from="1587714657685" duration="4735000" />
+      <workItem from="1587720543836" duration="166000" />
+      <workItem from="1587720723560" duration="1754000" />
+      <workItem from="1587777034346" duration="1635000" />
+      <workItem from="1587779310422" duration="20266000" />
+      <workItem from="1587950141839" duration="6096000" />
+      <workItem from="1587960706651" duration="7363000" />
+      <workItem from="1588836896972" duration="5533000" />
+      <workItem from="1589272386469" duration="1263000" />
+      <workItem from="1589341129123" duration="12287000" />
+      <workItem from="1589419044723" duration="2137000" />
     </task>
     <task id="LOCAL-00001" summary="springboot+activiti+postgresql+mybatis-puls">
       <created>1587705588832</created>
@@ -277,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587705993067</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="springboot+activiti+postgresql+mybatis-puls">
+      <created>1587714723708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587714723708</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -297,113 +332,140 @@
     <option name="LAST_COMMIT_MESSAGE" value="springboot+activiti+postgresql+mybatis-puls" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="94" key="#Project_Structure" timestamp="1587704911455">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1587781894768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587704911455" />
-    <state x="319" y="105" key="CommitChangelistDialog2" timestamp="1587705992070">
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1587781894768" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588836916448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="319" y="105" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587705992070" />
-    <state width="445" height="466" key="DebuggerActiveHint" timestamp="1587704845257">
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588836916448" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1587798593185">
       <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1587798593185" />
+    <state x="319" y="105" key="CommitChangelistDialog2" timestamp="1587714722695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="319" y="105" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1587714722695" />
+    <state width="445" height="484" key="DebuggerActiveHint" timestamp="1589348677418">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="445" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1587704845257" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587705938662">
+    <state width="445" height="484" key="DebuggerActiveHint/0.0.1920.1080@0.0.1920.1080" timestamp="1589348677418" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1587716812988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587705938662" />
-    <state width="1877" height="356" key="GridCell.Tab.0.bottom" timestamp="1587710521155">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587716812988" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1587807712836">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521155" />
-    <state width="1877" height="356" key="GridCell.Tab.0.center" timestamp="1587710521155">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587807712836" />
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.0.center" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.0.left" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.1.bottom" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.1.center" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.1.left" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.1.right" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.2.bottom" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.2.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.2.center" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.2.center/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.2.left" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.2.left/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="378" key="GridCell.Tab.2.right" timestamp="1589374795903">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="286" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588847351481" />
+    <state width="1877" height="378" key="GridCell.Tab.2.right/0.0.1920.1080@0.0.1920.1080" timestamp="1589374795903" />
+    <state width="1877" height="280" key="GridCell.Tab.3.bottom" timestamp="1587979201236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521155" />
-    <state width="1877" height="356" key="GridCell.Tab.0.left" timestamp="1587710521155">
+    <state width="1877" height="280" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587979201236" />
+    <state width="1877" height="280" key="GridCell.Tab.3.center" timestamp="1587979201236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521155" />
-    <state width="1877" height="356" key="GridCell.Tab.0.right" timestamp="1587710521155">
+    <state width="1877" height="280" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587979201236" />
+    <state width="1877" height="280" key="GridCell.Tab.3.left" timestamp="1587979201236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="356" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521155" />
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom" timestamp="1587710521148">
+    <state width="1877" height="280" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587979201236" />
+    <state width="1877" height="280" key="GridCell.Tab.3.right" timestamp="1587979201236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
-    <state width="1877" height="282" key="GridCell.Tab.1.center" timestamp="1587710521148">
+    <state width="1877" height="280" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587979201236" />
+    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1587777054581">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
-    <state width="1877" height="282" key="GridCell.Tab.1.left" timestamp="1587710521148">
+    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587777054581" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1588844678671">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
-    <state width="1877" height="282" key="GridCell.Tab.1.right" timestamp="1587710521148">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588844678671" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587714725347">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
-    <state width="1877" height="282" key="GridCell.Tab.2.bottom" timestamp="1587710521149">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587714725347" />
+    <state x="524" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1589342276084">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521149" />
-    <state width="1877" height="282" key="GridCell.Tab.2.center" timestamp="1587710521148">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="524" y="147" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1589342276084" />
+    <state x="662" y="264" width="596" height="553" key="find.popup" timestamp="1589348723552">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
-    <state width="1877" height="282" key="GridCell.Tab.2.left" timestamp="1587710521148">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
-    <state width="1877" height="282" key="GridCell.Tab.2.right" timestamp="1587710521148">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="282" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587710521148" />
-    <state width="1877" height="442" key="GridCell.Tab.3.bottom" timestamp="1587707200210">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="442" key="GridCell.Tab.3.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1587707200210" />
-    <state width="1877" height="442" key="GridCell.Tab.3.center" timestamp="1587707200210">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="442" key="GridCell.Tab.3.center/0.0.1920.1040@0.0.1920.1040" timestamp="1587707200210" />
-    <state width="1877" height="442" key="GridCell.Tab.3.left" timestamp="1587707200210">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="442" key="GridCell.Tab.3.left/0.0.1920.1040@0.0.1920.1040" timestamp="1587707200210" />
-    <state width="1877" height="442" key="GridCell.Tab.3.right" timestamp="1587707200210">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="442" key="GridCell.Tab.3.right/0.0.1920.1040@0.0.1920.1040" timestamp="1587707200210" />
-    <state x="540" y="254" key="IDE.errors.dialog" timestamp="1587699234946">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="540" y="254" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587699234946" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1587705941944">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1587705941944" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1587706022065">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1587706022065" />
-    <state x="662" y="254" width="596" height="532" key="find.popup" timestamp="1587701340659">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="662" y="254" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587701340659" />
+    <state x="662" y="254" width="596" height="532" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587979194111" />
+    <state x="662" y="264" width="596" height="553" key="find.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589348723552" />
     <state x="714" y="379" width="492" height="252" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1587705810135">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="379" width="492" height="252" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587705810135" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1587705134553">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="616" y="249" width="672" height="704" key="run.anything.popup" timestamp="1589348088415">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587705134553" />
-  </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1587973063274" />
+    <state x="616" y="249" width="672" height="704" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1589348088415" />
   </component>
 </project>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <definitions xmlns="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:activiti="http://activiti.org/bpmn" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:omgdc="http://www.omg.org/spec/DD/20100524/DC" xmlns:omgdi="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="http://www.activiti.org/test" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" expressionLanguage="http://www.w3.org/1999/XPath" id="m1568599144988" name="" targetNamespace="http://www.activiti.org/test" typeLanguage="http://www.w3.org/2001/XMLSchema">
   <process id="leaveTask" isClosed="false" isExecutable="true" name="leaveTask" processType="None">
-    <startEvent id="_2" name="开始"/>
+    <startEvent id="_2" activiti:formKey="xxx.form" name="开始"/>
     <userTask activiti:assignee="my" activiti:exclusive="true" id="_3" name="提交申请"/>
     <sequenceFlow id="_4" sourceRef="_2" targetRef="_3"/>
     <exclusiveGateway gatewayDirection="Unspecified" id="_5" name="请假时间判断"/>

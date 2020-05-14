@@ -46,6 +46,10 @@ public class ActivitiDemoTest {
     @Autowired
     private HistoryService historyService;
 
+    @Autowired
+    private FormService formService;
+
+
     /**
      * 发布流程
      *
@@ -56,7 +60,7 @@ public class ActivitiDemoTest {
 
         Deployment deploy = repositoryService.createDeployment()//创建一个部署的对象
                 .name("请假流程定义")//创建流程名称
-                .addClasspathResource("processes/leaveTask.bpmn")//指定zip完成部署
+                .addClasspathResource("processes/leaveTask.xml")//指定zip完成部署
                 .deploy();
 //        long count = repositoryService.createProcessDefinitionQuery().count();
         System.out.println("部署id" + deploy.getId());

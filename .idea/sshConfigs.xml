@@ -8,6 +8,26 @@
       <sshConfig authType="PASSWORD" host="47.110.232.75" id="a1012a5e-2baa-4c8d-8f56-e96e005a9c8a" port="22" customName="UMA2" nameFormat="CUSTOM" />
       <sshConfig authType="PASSWORD" host="47.111.13.180" id="bb6baebc-eb40-4909-9ec0-37829e20c079" port="22" customName="UMA1" nameFormat="CUSTOM" />
       <sshConfig authType="PASSWORD" host="47.110.232.75" id="f929b7f3-552f-48dd-9bff-c2ffd3f6b5ae" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="8bf52edd-01e9-4e4b-8aa3-3363adb36850" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="6a19790c-9625-49a1-a9e0-892f5f8ae2d0" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="b326848e-884e-4109-94d7-01404ce6f2e7" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="6b0786a8-758f-4719-b19a-4067c1968a5e" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="c7333cce-f3cc-4f1e-8cc2-9cc46ad6a0a4" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="1b9b990c-4231-4215-8a49-363b9ba8e51b" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="bb2f709c-6aaa-445a-a007-2a30b00ee026" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="c32edac1-2884-49dd-bebb-dfba722072db" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="c6c9c992-25f8-44cc-b1c0-9d8ba0defd7c" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="89ad2ad7-ef3a-4a03-bc20-4ff020ecc814" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="1a9943d6-0608-4b63-b117-4af76cce37f7" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="1bd52389-4d58-431b-9a62-bd70fc88e0e8" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="b2f2c905-d6ac-4116-aa47-689a44f2269e" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="759133ea-f028-4483-bf60-9dd9cb71c415" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="b6bc481c-698a-4390-a79b-46b15e06280a" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="a2777426-d5cf-43b9-9516-c754e50c96db" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="99bad082-84f1-48df-a5ba-61382d37a030" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="a4d93ed2-6725-48ea-ad59-e5f2ca26e370" port="22" customName="UMA2" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.111.13.180" id="d97736af-bcb2-46a6-9a7f-4345b2c21338" port="22" customName="UMA1" nameFormat="CUSTOM" />
+      <sshConfig authType="PASSWORD" host="47.110.232.75" id="ec90ee9f-d392-46cc-9751-4407a2201f20" port="22" customName="UMA2" nameFormat="CUSTOM" />
     </configs>
   </component>
 </project>
